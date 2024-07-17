@@ -9,33 +9,18 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            height: 100vh;
-            background: url('background-image.jpg') no-repeat center center fixed;
-            background-size: cover;
         }
-        .content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
             height: 100%;
-        }
-        .game-link {
-            font-size: 24px;
-            color: white;
-            text-decoration: none;
-            background-color: #3498db;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .game-link:hover {
-            background-color: #2980b9;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <a class="game-link" href="https://play.rosebud.ai/games/a924d49b-f920-45f0-96c4-f0bc35cb2b51" target="_blank" rel="noopener noreferrer">Play Sky Garden Game</a>
-    </div>
+    <iframe src="https://play.rosebud.ai/games/a924d49b-f920-45f0-96c4-f0bc35cb2b51"></iframe>
 </body>
 </html>
